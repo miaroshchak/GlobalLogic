@@ -88,8 +88,6 @@ namespace gl
 
                     }
 
-
-
                 }
 
                 catch (Exception ex)
@@ -121,19 +119,6 @@ namespace gl
                     DirSearch(d);
                 }
         }
-
-
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
 
 
         private void button2_Click(object sender, EventArgs e)
@@ -216,9 +201,6 @@ namespace gl
             }
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
 
-        }
     }
 }
