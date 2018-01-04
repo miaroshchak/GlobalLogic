@@ -12,7 +12,6 @@ D:\dot.net\GlobalLogic\Task_test\gl\obj\Debug\gl.exe
 D:\dot.net\GlobalLogic\Task_test\gl\obj\Debug\gl.pdb
 D:\dot.net\GlobalLogic\Task_test\gl\bin\Debug\gl.exe
 D:\dot.net\GlobalLogic\Task_test\gl\bin\Debug\gl.pdb
-D:\dot.net\GlobalLogic\Task_test\gl\obj\Debug\gl.csprojResolveAssemblyReference.cache
 D:\dot.net\GlobalLogic\Task_test\gl\obj\Debug\gl.Form1.resources
 D:\dot.net\GlobalLogic\Task_test\gl\obj\Debug\gl.Properties.Resources.resources
 D:\dot.net\GlobalLogic\Task_test\gl\obj\Debug\gl.csproj.GenerateResource.Cache
