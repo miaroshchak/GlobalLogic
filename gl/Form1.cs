@@ -28,6 +28,7 @@ namespace gl
         private void button1_Click(object sender, EventArgs e)
         {
             FolderBrowserDialog FBD = new FolderBrowserDialog();
+
             if (FBD.ShowDialog() == DialogResult.OK)
             {
                 try
@@ -64,8 +65,6 @@ namespace gl
                     BinaryFormatter formatter = new BinaryFormatter();
 
                     // отримуємо потік, куда будем записувати сериализованний обєкт
-
-                    //MessageBox.Show("Select the location of the save serialize file");
 
                     SaveFileDialog saveFileDialog1 = new SaveFileDialog();
                     saveFileDialog1.Filter = "Dat file|*.dat";
@@ -149,14 +148,10 @@ namespace gl
                     {
                         pathFolder = FBD.SelectedPath;
 
-
                         using (FileStream fs = new FileStream(path, FileMode.OpenOrCreate))
 
                         {
                             Archiv newArchiv = (Archiv)formatter.Deserialize(fs);
-
-                            if (!File.Exists(newArchiv.path))
-                            {
 
 
                                 // create subfolder
@@ -186,10 +181,7 @@ namespace gl
 
                                 }
 
-                            }
-                            else MessageBox.Show("Папка " + newArchiv.path + " десирализації існує");
-
-                            MessageBox.Show("The object is diserialized");
+                            MessageBox.Show("The object is diserialized in folder "+ pathFolder);
 
                         }
                     }
